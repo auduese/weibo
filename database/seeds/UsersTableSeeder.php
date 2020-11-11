@@ -15,8 +15,8 @@ class UsersTableSeeder extends Seeder
         factory(User::class)->times(50)->create();
 
         $user = User::find(1);
-        $user->name = 'auduese333';
-        $user->email = 'lutailong312@gmail.com';
+        $user->name = 'auduese';
+        $user->email = '467666610@qq.com';
         $user->is_admin = true;
         $user->save();
     }
